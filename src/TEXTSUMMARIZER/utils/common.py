@@ -52,7 +52,7 @@ def create_directory(path_to_dirs,verbose=True):
 
 
 @ensure_annotations
-def get_size(path: Path):
+def get_size(path):
     """
     Get the size of the file in bytes
     """
